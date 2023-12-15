@@ -1,0 +1,108 @@
+.detail {
+    width: 75%;
+    height: 480px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(115, 115, 115, 1);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(115, 115, 115, 1);
+    box-shadow: 0px 0px 8px 1px rgba(115, 115, 115, 1);
+}
+
+.detailText {
+    width: 800px;
+    height: 230px;
+}
+
+.detailText .pdet {
+    color: rgb(169, 161, 161);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.detailText .pdet2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+
+.detail img {
+    width: 30%;
+    height: 100%;
+}
+
+.detailText button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.detailText button i {
+    font-size: 20px;
+}
+
+.iconBD {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(169, 161, 161);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}
+
+.iconBD i {
+    transition: 500ms;
+}
+
+.iconBbbD i {
+    transition: 500ms;
+}
+
+
+.iconBbbD {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(169, 161, 161);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}
+
+.detailbtn {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.iconBD:hover {
+    cursor: pointer;
+    background-color: rgb(79, 79, 79);
+
+    i {
+        color: white;
+    }
+}
+
+.iconBbbD:hover {
+    cursor: pointer;
+    background-color: rgb(79, 79, 79);
+
+    i {
+        color: white;
+    }
+}
+
+
+
+
+span {
+    font-size: 23px;
+    font-weight: 500;
+}

@@ -1,0 +1,7 @@
+.wishlist {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(169, 161, 161);
+    cursor: pointer;
+}

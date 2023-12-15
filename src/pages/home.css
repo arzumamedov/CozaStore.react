@@ -1,0 +1,333 @@
+.first {
+    width: 100%;
+    height: 900px;
+    background-image: url("https://preview.colorlib.com/theme/cozastore/images/slide-02.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.firstTexts {
+    width: 600px;
+    height: 250px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 150px;
+}
+
+.firstTexts p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+}
+
+.firstTexts h2 {
+    font-size: 63px;
+}
+
+.firstTexts button {
+    width: 160px;
+    height: 45px;
+    background-color: rgb(139, 133, 133);
+    border: none;
+    border-radius: 70px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    transition: 500ms;
+}
+
+.firstTexts button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.second {
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 32%;
+    height: 280px;
+    position: relative;
+    border: 1px solid rgb(179, 179, 179);
+    -webkit-box-shadow: -9px -3px 39px -13px rgba(115, 115, 115, 1);
+    -moz-box-shadow: -9px -3px 39px -13px rgba(115, 115, 115, 1);
+    box-shadow: -9px -3px 39px -13px rgba(115, 115, 115, 1);
+    border: none;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.text h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+}
+
+.text p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.card .block {
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.card .block:hover {
+    background-color: rgb(79, 79, 79, 0.8);
+
+    .text p {
+        color: white;
+    }
+
+    .text h4 {
+        color: white;
+    }
+}
+
+.third {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.third h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 38px;
+}
+
+.thirdBottom {
+    width: 100%;
+    min-height: 160vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.crd {
+    width: 300px;
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(115,115,115,1);
+    -moz-box-shadow: 0px 0px 9px 1px rgba(115,115,115,1);
+    box-shadow: 0px 0px 9px 1px rgba(115,115,115,1);
+}
+
+.crd img {
+    width: 100%;
+    height: 80%;
+}
+
+.p1 {
+    color: rgb(166, 166, 166);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+.p2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.btn {
+    opacity: 0;
+    transition: 500ms;
+    width: 300px;
+    border: none;
+    height: 40px;
+    overflow: hidden;
+
+}
+
+.iconB {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(169, 161, 161);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: -40px;
+    transition: 500ms;
+}
+
+
+
+.crd:hover {
+    .iconB {
+        opacity: 1;
+        transform: translateX(42px);
+
+    }
+}
+
+.iconBbb {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(169, 161, 161);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -40px;
+    top: 30px;
+    transition: 500ms;
+}
+
+.crd:hover {
+    .iconBbb {
+        opacity: 1;
+        transform: translateX(-42px);
+
+    }
+}
+
+.iconB:hover {
+    cursor: pointer;
+    background-color: rgb(79, 79, 79);
+
+    i {
+        color: white;
+    }
+}
+
+.iconB i {
+    transition: 500ms;
+}
+
+.iconBbb i {
+    transition: 500ms;
+}
+
+
+.iconBbb:hover {
+    cursor: pointer;
+    background-color: rgb(79, 79, 79);
+
+    i {
+        color: white;
+    }
+}
+
+.third button {
+    width: 170px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.third button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter {
+    width: 97.6%;
+    height: 60px;
+    background-color: #737373;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterLeft {
+    width: 400px;
+    height: 60px;
+    /* background-color: green; */
+}
+
+.filterLeft ul {
+    width: 100%;
+    height: 100%;
+}
+
+.filterLeft ul .li {
+    background-color: rgb(169, 161, 161);
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 500ms;
+}
+
+.filterLeft ul .li:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.filterRight {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.filterRight input {
+    border: none;
+    height: 30px;
+    width: 170px;
+    padding-left: 10px;
+    outline: none;
+    transition: 500ms;
+}
+
+.filterRight input:hover {
+    background-color: rgb(169, 161, 161);
+    cursor: pointer;
+}
+
+.filterRight i {
+    position: absolute;
+    right: 20px;
+}
+
+.fa-regular {
+    color: black;
+}
